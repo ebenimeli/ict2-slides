@@ -93,6 +93,7 @@ img.rounded {
     padding: 2px;
     width: 300px;
     float: right;
+    margin-right: 50px;
     /*display: inline-block;*/ /* Asegura que la sombra se aplique correctamente */
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Valores para la sombra: desplazamiento-x, desplazamiento-y, difuminado, color */
   
@@ -105,8 +106,7 @@ img.squared {
     margin-right: 50px;
     width: 300px;
     float: right;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Valores para la sombra: desplazamiento-x, desplazamiento-y, difuminado, color */
-
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 .image-container {
@@ -162,6 +162,14 @@ img.squared {
     width: 100%; /* Make the image take up the entire container width */
     height: 100%; /* Make the image take up the entire container height */
     object-fit: cover; /* Maintain aspect ratio and cover the container */
+  }
+
+  b {
+    color: steelblue;
+  }
+
+  ul li {
+    list-style: square;
   }
 
   

@@ -410,6 +410,7 @@ img.rounded {
   padding: 2px;
   width: 300px;
   float: right;
+  margin-right: 50px;
   /*display: inline-block;*/
   /* Asegura que la sombra se aplique correctamente */
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
@@ -424,7 +425,6 @@ img.squared {
   width: 300px;
   float: right;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-  /* Valores para la sombra: desplazamiento-x, desplazamiento-y, difuminado, color */
 }
 
 .image-container {
@@ -487,4 +487,12 @@ img.squared {
   /* Make the image take up the entire container height */
   object-fit: cover;
   /* Maintain aspect ratio and cover the container */
+}
+
+b {
+  color: steelblue;
+}
+
+ul li {
+  list-style: square;
 }
